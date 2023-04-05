@@ -23,26 +23,26 @@ export default function Home() {
             <img
               src="./logoMai.png"
               alt="logo"
-              className="w-16 h-16 object-contain"
+              className="object-contain w-16 h-16"
             />
           </motion.header>
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
               <h1 className="head-text">
-                Show your <br className="xl:block hidden" /> unique character
+                Show your <br className="hidden xl:block" /> unique character
               </h1>
             </motion.div>
 
             <motion.div
               {...headContentAnimation}
-              className="flex flex-col gap-5"
+              className="flex flex-col gap-5 pb-10"
             >
-              <p className="max-w-md font-normal text-gray-600 text-base">
+              <p className="max-w-md text-base font-normal text-gray-600">
                 Let your creativity run wild and produce a personalized shirt
                 that perfectly expresses your unique style with{" "}
                 <strong> our innovative 3D customization tool.</strong>
               </p>
-              <p className="max-w-md font-normal text-gray-600 text-base">
+              <p className="max-w-md text-base font-normal text-gray-600">
                 This project using <strong>Reactjs and Tailwind</strong> . The
                 project will continue updated. Next update will be working on
                 export function and AR that let user can try on.
